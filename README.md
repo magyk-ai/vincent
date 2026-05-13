@@ -4,11 +4,38 @@
 
 Vincent is a CLI tool that takes a product image and collaborates with you to produce a polished marketing video — scene generation, image editing, and video animation, all driven by Google Gemini and Veo 3.
 
+---
+
+## Requirements
+
+- **Node.js 25+** — Vincent requires Node 25. If you're on an older version, use [nvm](https://github.com/nvm-sh/nvm):
+
+  ```sh
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/HEAD/install.sh | bash
+  # restart your shell, then:
+  nvm install 25
+  nvm use 25
+  ```
+
+- **Google Gemini API key** — free at [Google AI Studio](https://aistudio.google.com/apikey)
+
+---
+
+## Install
+
 ```sh
 npm install -g @magyk/vincent
 ```
 
-Requires Node 25+ and a free Google Gemini API key.
+Then run `vincent` with a product image:
+
+```sh
+vincent ./product.jpg
+```
+
+---
+
+## Links
 
 - **Website:** [magyk.ai/vincent](https://magyk.ai/vincent)
 - **npm:** [@magyk/vincent](https://www.npmjs.com/package/@magyk/vincent)
