@@ -35,7 +35,6 @@ and include the output in your report — it captures your node version, termina
 
 **What doesn't belong here:**
 - API key or billing issues → contact Google directly
-- General Magyk product questions → [Discord](https://discord.gg/Wf4wYQMM56)
 
 ---
 
