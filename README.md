@@ -8,13 +8,13 @@ Vincent is a CLI tool that takes a product image and collaborates with you to pr
 
 ## Requirements
 
-- **Node.js 24+** — Vincent requires Node 24 (LTS) or later. If you're on an older version, use [nvm](https://github.com/nvm-sh/nvm):
+- **Node.js 22+** — Vincent requires Node 22 (LTS) or later. If you're on an older version, use [nvm](https://github.com/nvm-sh/nvm):
 
   ```sh
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/HEAD/install.sh | bash
   # restart your shell, then:
-  nvm install 24
-  nvm use 24
+  nvm install 22
+  nvm use 22
   ```
 
 - **Google Gemini API key** — free at [Google AI Studio](https://aistudio.google.com/apikey)
