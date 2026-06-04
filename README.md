@@ -1,8 +1,8 @@
 # Vincent
 
-**Product marketing videos in your terminal.**
+**Make video in your terminal.**
 
-Vincent is a CLI tool that takes a product image and collaborates with you to produce a polished marketing video — scene generation, image editing, and video animation, all driven by Google Gemini and Veo 3.
+Vincent is a conversational AI agent in your terminal for making videos. Turn a **product photo** into a marketing video, or a **plain-language idea** into a narrated, multi-scene **story** video — Vincent drafts a storyboard for your review, renders when you approve, then keeps editing by conversation. Gemini + Veo are the zero-config default (one API key); Replicate, fal, ElevenLabs, and OpenAI are optional.
 
 ---
 
@@ -27,11 +27,14 @@ Vincent is a CLI tool that takes a product image and collaborates with you to pr
 npm install -g @magyk/vincent
 ```
 
-Then run `vincent` with a product image:
+Then start a conversation:
 
 ```sh
-vincent ./product.jpg
+vincent                  # chat — pick Product or Story mode
+vincent ./product.jpg    # start with a product image loaded
 ```
+
+In **Story mode**, describe an idea and Vincent drafts a storyboard for your review before it renders. In **Product mode**, it turns a product photo into a marketing video. Switch anytime with `/mode`.
 
 ---
 
