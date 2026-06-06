@@ -14,7 +14,7 @@ labels: bug
 1.
 2.
 
-** output**
+**`vincent --self-test` output** (and, for a render/ffmpeg problem, also `vincent doctor`)
 ```
 (paste output here)
 ```
