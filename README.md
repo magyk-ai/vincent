@@ -19,6 +19,8 @@ Vincent is a conversational AI agent in your terminal for making videos. Turn a 
 
 - **Google Gemini API key** — free at [Google AI Studio](https://aistudio.google.com/apikey)
 
+- **ffmpeg** — required to render video. Run `vincent doctor` to check it, or `vincent setup` (macOS/Linux) to install a verified build, with your consent. On macOS, Homebrew's `ffmpeg` no longer bundles **libass** (needed to burn subtitles into the video), so prefer `vincent setup` — `brew install ffmpeg` still renders video, but without captions.
+
 ---
 
 ## Install
