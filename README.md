@@ -60,6 +60,8 @@ vincent --self-test
 
 and include the output in your report — it captures your node version, terminal type, binary availability, and settings state, which cuts resolution time significantly.
 
+**If a specific session misbehaved,** run `/diagnostics` in the app (or `vincent diagnostics --latest` after quitting) and attach the `.zip` it writes to your current directory. It bundles that session's transcript, logs, and an environment report into one file — with no API keys (those live outside the session folder) and your home path rewritten to `<HOME>`.
+
 **What belongs here:**
 - Bug reports (crashes, unexpected output, generation failures)
 - Feature requests
