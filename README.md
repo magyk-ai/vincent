@@ -43,6 +43,7 @@ In **Story mode**, describe an idea and Vincent drafts a storyboard for your rev
 ## Links
 
 - **Website:** [magyk.ai/vincent](https://magyk.ai/vincent)
+- **User guide:** [magyk.ai/guide](https://magyk.ai/guide) — including [local / self-hosted inference](https://magyk.ai/guide#local)
 - **npm:** [@magyk/vincent](https://www.npmjs.com/package/@magyk/vincent)
 - **Get API key:** [Google AI Studio](https://aistudio.google.com/apikey)
 
